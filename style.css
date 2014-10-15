@@ -22,5 +22,14 @@ ul{
 }
 
 .tab {
-	margin: 10px;
+	margin-right: 20px;
+}
+
+.repositories > a {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+li {
+	margin-bottom: 0px;
 }

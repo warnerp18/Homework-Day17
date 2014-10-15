@@ -1,5 +1,5 @@
 img {
-	width: 300px;
+	width: 100%;
 	display: inline-block;
 }
 .sidebar {
@@ -9,6 +9,7 @@ img {
 }
 div {
     display: inline-block;
+    vertical-align: top;
 }
 
 ul{
@@ -24,5 +25,14 @@ ul{
 }
 
 .tab {
-	margin: 10px;
+	margin-right: 20px;
+}
+
+.repositories > a {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+li {
+	margin-bottom: 0px;
 }
