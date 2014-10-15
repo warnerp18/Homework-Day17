@@ -1,7 +1,25 @@
+img {
+	width: 300px;
+	display: inline-block;
+}
 .sidebar {
-    max-width: 50px;
+    width: 300px;
+    height: 100%;
     display: inline-block;
 }
 div {
     display: inline-block;
+}
+
+ul{
+	list-style-type: none;
+
+}
+
+#selections {
+	display: inline-flex;
+}
+
+.tab {
+	margin: 10px;
 }

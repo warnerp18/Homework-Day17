@@ -2,7 +2,7 @@ _.templateSettings.interpolate = /{([\s\S]+?)}/g;
 
 
 var someHtmlString = [
-	"<div 'class=sidebar'>",
+	"<div class=sidebar>",
         "<img src='{avatar_url}'>",
         "<h3>{name}</h3>",
         "<ul>",
@@ -12,11 +12,12 @@ var someHtmlString = [
         "</ul>",
     "</div>",
     "<div>",
-    	"<ul>",
-    		"<li><a href='html_url'> Contributions </a><li>",
-    		"<li><a href='{repo_url}'> Repositories </a><li>",
-    		"<li> </li>",
+    	"<ul id= selections>",
+    		"<li class=tab><a href='html_url'> Contributions </a></li>",
+    		"<li class=tab><a href='repo_url'> Repositories </a></li>",
+    		"<li class=tab><a href='#'>  </a> Public Activity </li>",
     	"</ul>",
+    	
     "</div>"
     ].join("");
 
