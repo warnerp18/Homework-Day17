@@ -1,5 +1,5 @@
 img {
-	width: 300px;
+	width: 100%;
 	display: inline-block;
 }
 .sidebar {
@@ -9,6 +9,7 @@ img {
 }
 div {
     display: inline-block;
+    vertical-align: top;
 }
 
 ul{

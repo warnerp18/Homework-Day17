@@ -17,6 +17,13 @@ var someHtmlString = [
     		"<li class=tab><a href='repo_url'> Repositories </a></li>",
     		"<li class=tab><a href='#'>  </a> Public Activity </li>",
     	"</ul>",
+    	"<ul>",
+    		"<li></li>",
+    		"<li></li>",
+    		"<li></li>",
+    		"<li></li>",
+		"</ul>",
+
     	
     "</div>"
     ].join("");
